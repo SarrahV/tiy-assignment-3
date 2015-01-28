@@ -11,7 +11,8 @@ ul {
 }
 
 .octocat {
-	margin: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 	border-bottom: 1px solid #ccc;
 }
 
@@ -63,18 +64,21 @@ ul .authors {
 .image-footer {
 	display: block;
 	overflow: hidden;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	position: relative;
+	line-height: 2em;
 }
 
-div.image-footer:before {
+.image-footer:before {
 	content: "";
 	display: block;
 	width: 0;
 	height: 0;
 	border-style: solid;
 	border-width: 9px 8px 0 8px;
-	border-color: #e62b2b transparent transparent transparent;
+	border-color: #cccccc transparent transparent transparent;
+	position: absolute;
+	top: 0;
+	right: 0;
 } 
 
 
