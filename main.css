@@ -25,6 +25,11 @@ ul {
 
 }
 
+.image-caption {
+	float: right;
+	margin: 0;
+}
+
 
 .image-caption a:link, .image-caption a:visited {
 	text-decoration: none;
@@ -44,12 +49,21 @@ ul {
 .image-footer {
 	border-bottom: 1px solid #ccc;
 	display: block;
+	overflow: hidden;
+}
+
+ul .authors {
+	float: right;
+	margin: 0;
+	padding: 0;
 }
 
 .authors img {
 	width:16px;
 	height:16px;
 }
+
+
 
 
 
