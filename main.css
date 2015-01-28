@@ -12,6 +12,7 @@ ul {
 
 .octocat {
 	margin: 10px;
+	border-bottom: 1px solid #ccc;
 }
 
 .octodex li {
@@ -22,7 +23,6 @@ ul {
 	width: 300px;
 	height: 300px;
 	border: 1px solid #ccc;
-
 }
 
 .image-caption {
@@ -46,13 +46,7 @@ ul {
 	content: "#";
 }
 
-.image-footer {
-	border-bottom: 1px solid #ccc;
-	display: block;
-	overflow: hidden;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
+
 
 ul .authors {
 	float: right;
@@ -66,7 +60,22 @@ ul .authors {
 }
 
 
+.image-footer {
+	display: block;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
+div.image-footer:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 9px 8px 0 8px;
+	border-color: #e62b2b transparent transparent transparent;
+} 
 
 
 
