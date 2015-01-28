@@ -26,10 +26,21 @@ ul {
 	height:32px;
 }
 
+.image-caption a:link, .image-caption a:visited {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
 .image-caption span {
 	font-weight: bold;
 	color: #86888A;
 }
+
+.image-number:before{
+	content: "#";
+}
+
 
 
 
