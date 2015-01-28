@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #CCC;
-	font-size: .7em;
+	font-size: .6em;
 }
 
 ul {
@@ -25,10 +25,6 @@ ul {
 
 }
 
-.authors img {
-	width:16px;
-	height:16px;
-}
 
 .image-caption a:link, .image-caption a:visited {
 	text-decoration: none;
@@ -47,7 +43,14 @@ ul {
 
 .image-footer {
 	border-bottom: 1px solid #ccc;
+	display: block;
 }
+
+.authors img {
+	width:16px;
+	height:16px;
+}
+
 
 
 
