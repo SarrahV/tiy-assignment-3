@@ -1,7 +1,7 @@
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .octocat img {
-    width: 50%;
+    width: 150px;
+    height: 150px;
   }
-  
 }
