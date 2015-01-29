@@ -27,7 +27,6 @@ ul {
 	margin: 0;
 }
 
-
 .image-caption {
 	float: right;
 	margin: 0;
@@ -43,6 +42,11 @@ ul {
 .image-caption span {
 	font-weight: bold;
 	color: #86888A;
+}
+
+.image-number {
+	font-weight: bold;
+
 }
 
 .image-number:before{
