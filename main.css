@@ -1,3 +1,4 @@
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
@@ -26,6 +27,22 @@ ul {
 	border: 1px solid #ccc;
 	margin: 0;
 }
+
+.octocat a:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 9px 8px 0 8px;
+	border-color: #cccccc transparent transparent transparent;
+	position: absolute;
+	z-index: 2;
+	bottom: 75%;
+	right: 0;
+} 
+
+
 
 .image-caption {
 	float: right;
@@ -76,7 +93,7 @@ ul .authors {
 	margin: 0;
 }
 
-.image-footer:before {
+/*.image-footer:before {
 	content: "";
 	display: block;
 	width: 0;
@@ -87,7 +104,7 @@ ul .authors {
 	position: absolute;
 	top: 0;
 	right: 0;
-} 
+} */
 
 
 
